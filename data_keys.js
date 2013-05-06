@@ -11,11 +11,6 @@ $(function() {
     .append("g")
     .attr("transform", "translate(32," + (height / 2) + ")");
     
-  function pick_color() {
-	var colors = ['red', 'blue'];
-	return colors[Math.round(Math.random(), 0)]
-  }
-  
   function redraw() {
 	// DATA JOIN 	  
 	var text = svg.selectAll('text')
